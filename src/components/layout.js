@@ -7,6 +7,7 @@
 
 import React from "react"
 import Header from "./header"
+import Footer from "./footer"
 
 import "./layout.css"
 
@@ -14,7 +15,7 @@ const Layout = ({ children }) => (
   <React.Fragment>
     <Header />
     <main>{children}</main>
-    <footer>footer</footer>
+    <Footer />
   </React.Fragment>
 )
 
